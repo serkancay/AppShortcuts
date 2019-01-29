@@ -1,0 +1,12 @@
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:icon="@drawable/ic_discover"
+        android:shortcutId="discover"
+        android:shortcutShortLabel="@string/discover">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.serkancay.appshortcuts.DiscoverActivity"
+            android:targetPackage="com.serkancay.appshortcuts" />
+
+    </shortcut>
+</shortcuts>
